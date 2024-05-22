@@ -1,16 +1,25 @@
-body {
+body, html {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 .container {
-    width: 100%;
+    max-width: 1000px; /* Set a maximum width for the container */
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensure no overflow */
 }
 
 .header {
