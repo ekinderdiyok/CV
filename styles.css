@@ -15,7 +15,7 @@ body, html {
 }
 
 .container {
-    max-width: 1000px; /* Set a maximum width for the container */
+    max-width: 700px; /* Reduced the maximum width */
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
@@ -49,11 +49,11 @@ body, html {
     margin-bottom: 10px;
 }
 
-.skills, .experience, .education {
+.skills, .experience, .education, .soft-skills, .hobbies {
     display: block;
 }
 
-.skills ul, .experience ul, .education ul {
+.skills ul, .experience ul, .education ul, .soft-skills ul, .hobbies ul {
     width: 100%;
 }
 
@@ -72,4 +72,5 @@ a:hover {
 
 .experience .job-title {
     font-weight: bold;
+    margin-bottom: -5px;
 }
