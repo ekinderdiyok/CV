@@ -40,7 +40,7 @@ body, html {
 .section ul {
     list-style: none;
     padding: 0;
-    width: 100%; /* Combine similar rules */
+    width: 100%;
 }
 
 .section ul li {
@@ -56,11 +56,11 @@ a:hover {
     text-decoration: underline;
 }
 
-.experience .job {
+.job {
     margin-bottom: 20px;
 }
 
-.experience .job-title {
+.job-title {
     font-weight: bold;
     margin-bottom: -5px;
 }
