@@ -1,26 +1,23 @@
 body, html {
     font-family: Arial, sans-serif;
-    font-size: 15px; /* Change the base font size for body and html */
+    font-size: 12px;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     box-sizing: border-box;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     box-sizing: inherit;
 }
 
 .container {
-    max-width: 700px; /* Reduced the maximum width */
+    max-width: 700px;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* Ensure no overflow */
 }
 
 .header {
@@ -43,34 +40,27 @@ body, html {
 .section ul {
     list-style: none;
     padding: 0;
-}
-
-.section ul li {
-    margin-bottom: 10px;
-}
-
-.skills, .experience, .education, .soft-skills, .hobbies {
-    display: block;
-}
-
-.skills ul, .experience ul, .education ul, .soft-skills ul, .hobbies ul {
     width: 100%;
 }
 
+.section ul li {
+    margin-bottom: 8px;
+}
+
 a {
-    color: #007acc;
-    text-decoration: none;
+    color: #000;
+    text-decoration: underline;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.experience .job {
+.job {
     margin-bottom: 20px;
 }
 
-.experience .job-title {
+.job-title {
     font-weight: bold;
     margin-bottom: -5px;
 }
